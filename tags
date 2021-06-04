@@ -1,0 +1,661 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADAPTIVE_H	inc/adaptive.h	3;"	d
+BOXSIZE	inc/photoNs.h	/^double BOXSIZE;$/;"	v
+Body	inc/mytypes.h	/^} Body;$/;"	t	typeref:struct:__anon7
+BoxCenter	inc/photoNs.h	/^double BoxCenter;$/;"	v
+BoxMaximum	inc/photoNs.h	/^double BoxMaximum;$/;"	v
+BoxMinimum	inc/photoNs.h	/^double BoxMinimum;$/;"	v
+BoxSize	src/snapshot.c	/^	double BoxSize;$/;"	m	struct:__anon18	file:
+CC	Makefile	/^CC   = mpicc$/;"	m
+COEFF	inc/mytypes.h	/^double COEFF;$/;"	v
+CONV2D	Makefile	/^CONV2D	  = conv.f90$/;"	m
+CONV_H	inc/conv.h	2;"	d
+CodeProj	inc/photoNs.h	/^char CodeProj[120];$/;"	v
+DEBUG_RUNTIME	inc/photoNs.h	/^int DEBUG_RUNTIME;$/;"	v
+DIRECT_NBODY	inc/photoNs.h	26;"	d
+DOMAIN_H	inc/domains.h	2;"	d
+DTIME_FRACTION	inc/photoNs.h	/^double DTIME_FRACTION;$/;"	v
+DTIME_PARTMESH	inc/photoNs.h	/^double DTIME_PARTMESH;$/;"	v
+DTIME_THIS_DOMAIN	inc/photoNs.h	/^double DTIME_THIS_DOMAIN;$/;"	v
+DomainNode	inc/photoNs.h	/^} DomainNode;$/;"	t	typeref:struct:__anon12
+EXE	Makefile	/^EXE       = photoNs-lcdm$/;"	m
+EXEDIR	Makefile	/^EXEDIR	  = .\/run\/$/;"	m
+ErrTolIntAccuracy	inc/photoNs.h	/^double ErrTolIntAccuracy;$/;"	v
+ExtDomain	inc/photoNs.h	/^int *ExtDomain;  \/\/ free$/;"	v
+FAC	src/utility.c	294;"	d	file:
+FAC	src/utility.c	337;"	d	file:
+FC	Makefile	/^FC   = mpif90$/;"	m
+FMM_H	inc/fmm.h	2;"	d
+GadgetHeader	src/snapshot.c	/^} GadgetHeader;$/;"	t	typeref:struct:__anon18	file:
+GravConst	inc/photoNs.h	/^double GravConst;$/;"	v
+HYDRO_H	inc/hydro.h	2;"	d
+Hubble0	inc/photoNs.h	/^double Hubble0;$/;"	v
+HubbleParam	src/snapshot.c	/^	double HubbleParam;$/;"	m	struct:__anon18	file:
+HubbleParam	src/snapshot.c	/^static double HubbleParam;$/;"	v	file:
+IEEE_arith	Makefile	/^	$(FC) -c -g -OPT:IEEE_arith=2  $(INC2DFFT) -o "$@" "$<"$/;"	m
+IEEE_arith	Makefile	/^	$(FC) -g -OPT:IEEE_arith=2 -O0 $(OBJDIR)\/*.o $(LIBS) $(LIB2DFFT) $(SWLU) -o $(EXEDIR)\/$(EXE)$/;"	m
+INCDIR	Makefile	/^INCDIR	  = inc$/;"	m
+INIT_H	inc/initial.h	2;"	d
+INT64	inc/mytypes.h	/^typedef unsigned long INT64;$/;"	t
+IRS	inc/mytypes.h	/^double IRS;$/;"	v
+InitialTime	inc/photoNs.h	/^double InitialTime;$/;"	v
+InputPath	inc/photoNs.h	/^char InputPath[128];$/;"	v
+KERNEL_H	inc/kernels.h	2;"	d
+L	inc/mytypes.h	/^	double L[NMULTI];$/;"	m	struct:__anon5
+L	inc/mytypes.h	/^	double L[NMULTI];$/;"	m	struct:__anon6
+LENDATA	src/task_slave.c	/^int LENDATA  = NSEG * NPACK * 8 ;$/;"	v
+LIBDIR	Makefile	/^LIBDIR    = lib$/;"	m
+LogMessage	src/utility.c	/^void LogMessage(int loop, double a, double time_short, double time_pm, double time_total, double imbalance) {$/;"	f
+Logfile_flush	src/utility.c	/^void Logfile_flush(){$/;"	f
+M	inc/mytypes.h	/^	double M[NMULTI];$/;"	m	struct:__anon5
+M	inc/mytypes.h	/^	double M[NMULTI];$/;"	m	struct:__anon6
+M	inc/photoNs.h	/^	double M[NMULTI];$/;"	m	struct:__anon11
+M	inc/photoNs.h	/^	double M[NMULTI];$/;"	m	struct:__anon9
+MAC2	inc/photoNs.h	20;"	d
+MASSPART	inc/photoNs.h	/^double MASSPART;$/;"	v
+MAXLEAF	inc/photoNs.h	/^int MAXLEAF;$/;"	v
+MAXSNAP	inc/photoNs.h	133;"	d
+MAX_PACKAGE	inc/mytypes.h	24;"	d
+MBIG	src/utility.c	291;"	d	file:
+MBIG	src/utility.c	334;"	d	file:
+MEMBLOCK	inc/utility.h	8;"	d
+MKey	inc/photoNs.h	/^} MKey;$/;"	t	typeref:struct:__anon8
+MSEED	src/utility.c	292;"	d	file:
+MSEED	src/utility.c	335;"	d	file:
+MSIZE0	inc/photoNs.h	/^int *MSIZE0;$/;"	v
+MSIZE1	inc/photoNs.h	/^int *MSIZE1;$/;"	v
+MYTYPES_H	inc/mytypes.h	2;"	d
+MZ	src/utility.c	293;"	d	file:
+MZ	src/utility.c	336;"	d	file:
+MaxMemory	inc/utility.h	/^size_t MaxMemory;$/;"	v
+NCORE	inc/task.h	4;"	d
+NMULTI	inc/mytypes.h	12;"	d
+NPACK	inc/task.h	6;"	d
+NPART	inc/photoNs.h	/^int NPART;$/;"	v
+NPART_HYDRO	inc/photoNs.h	/^int NPART_HYDRO;$/;"	v
+NPART_MEAN	inc/photoNs.h	/^int NPART_MEAN;$/;"	v
+NPART_TOTAL	inc/photoNs.h	/^long NPART_TOTAL;$/;"	v
+NPOW	src/partmesh.c	2174;"	d	file:
+NPOW	src/partmesh.c	2212;"	d	file:
+NSEG	inc/task.h	5;"	d
+NSIDE	inc/photoNs.h	/^int NSIDE;$/;"	v
+NSON	inc/mytypes.h	21;"	d
+NTASKM2L	src/fmm.c	/^static INT64 NTASKM2L;$/;"	v	file:
+NTASKM2Lext	src/remotes.c	/^static INT64 NTASKM2Lext;$/;"	v	file:
+NTASKP2P	src/fmm.c	/^static INT64 NTASKP2P;$/;"	v	file:
+NTASKP2Pext	src/remotes.c	/^static INT64 NTASKP2Pext;$/;"	v	file:
+NVECT	inc/task.h	7;"	d
+Node	inc/mytypes.h	/^} Node;$/;"	t	typeref:struct:__anon5
+NumGravFunc	inc/photoNs.h	/^int NumGravFunc;$/;"	v
+NumThread	inc/photoNs.h	/^int NumThread;$/;"	v
+OBJDIR	Makefile	/^OBJDIR    = obj$/;"	m
+OBJECTS	Makefile	/^OBJECTS	  = $(patsubst %.c, $(OBJDIR)\/%.o,$(SOURCES))$/;"	m
+OBJFORT	Makefile	/^OBJFORT	  = $(patsubst %.f90, $(OBJDIR)\/%.o,$(CONV2D))$/;"	m
+OCTUPOLE	inc/mytypes.h	11;"	d
+OPERATOR_H	inc/operator.h	2;"	d
+Omega0	src/snapshot.c	/^	double Omega0;$/;"	m	struct:__anon18	file:
+Omega0	src/snapshot.c	/^static double Omega0;$/;"	v	file:
+OmegaLambda	src/snapshot.c	/^	double OmegaLambda;$/;"	m	struct:__anon18	file:
+OmegaLambda	src/snapshot.c	/^static double OmegaLambda;$/;"	v	file:
+OmegaM0	inc/photoNs.h	/^double OmegaM0;$/;"	v
+OmegaX0	inc/photoNs.h	/^double OmegaX0;$/;"	v
+OutputName	inc/photoNs.h	/^char OutputName[128];$/;"	v
+OutputPath	inc/photoNs.h	/^char OutputPath[128];$/;"	v
+PARTMESH_H	inc/partmesh.h	2;"	d
+PHOTONS_H	inc/photoNs.h	8;"	d
+PM_COMM_WORLD	inc/photoNs.h	/^MPI_Comm PM_COMM_WORLD;$/;"	v
+PROC_RANK	inc/photoNs.h	/^int PROC_RANK, PROC_SIZE;$/;"	v
+PROC_SIZE	inc/photoNs.h	/^int PROC_RANK, PROC_SIZE;$/;"	v
+Pack	inc/mytypes.h	/^} Pack;$/;"	t	typeref:struct:__anon6
+QUADRUPOLE	inc/mytypes.h	9;"	d
+REMOTE_H	inc/remotes.h	2;"	d
+Redshift_Time	inc/photoNs.h	/^double Redshift_Time;$/;"	v
+RemoteBody	inc/photoNs.h	/^} RemoteBody;$/;"	t	typeref:struct:__anon10
+RemoteNode	inc/photoNs.h	/^} RemoteNode;$/;"	t	typeref:struct:__anon9
+SNAPSHOT_H	inc/snapshot.h	2;"	d
+SOURCES	Makefile	/^SOURCES	  = photoNs.c \\$/;"	m
+SPLIT_THIS_DOMAIN	inc/photoNs.h	/^double SPLIT_THIS_DOMAIN;$/;"	v
+SRCDIR	Makefile	/^SRCDIR    = src$/;"	m
+SWLU	Makefile	/^SWLU      = -L\/home\/export\/online1\/swmore\/opensource\/swlu\/lib -lswlu_mpi $/;"	m
+SamplingRate	inc/photoNs.h	/^double SamplingRate;$/;"	v
+SnapFormat	inc/photoNs.h	/^int SnapFormat;$/;"	v
+SnapNumber	inc/photoNs.h	/^int SnapNumber;$/;"	v
+SoftSquare	inc/photoNs.h	/^double SoftSquare;$/;"	v
+SoftenScale	inc/photoNs.h	/^double SoftenScale;$/;"	v
+SoftenScale	src/slave_kernels.c	/^           double SoftenScale;	 $/;"	m	struct:__anon17	file:
+TASK_H	inc/task.h	2;"	d
+TOPTREE_H	inc/toptree.h	2;"	d
+TREE_CODE	inc/photoNs.h	27;"	d
+TopNode	inc/photoNs.h	/^} TopNode;$/;"	t	typeref:struct:__anon11
+TotalMemory	inc/utility.h	/^size_t TotalMemory;$/;"	v
+UTILITY_H	inc/utility.h	2;"	d
+VALIDATION	inc/photoNs.h	/^char VALIDATION[256];$/;"	v
+X	inc/operator.h	24;"	d
+XX	inc/operator.h	28;"	d
+XXX	inc/operator.h	39;"	d
+XXXX	inc/operator.h	70;"	d
+XXXY	inc/operator.h	75;"	d
+XXXZ	inc/operator.h	80;"	d
+XXY	inc/operator.h	49;"	d
+XXYX	inc/operator.h	72;"	d
+XXYY	inc/operator.h	85;"	d
+XXYZ	inc/operator.h	98;"	d
+XXZ	inc/operator.h	59;"	d
+XXZX	inc/operator.h	77;"	d
+XXZY	inc/operator.h	95;"	d
+XXZZ	inc/operator.h	105;"	d
+XY	inc/operator.h	29;"	d
+XYX	inc/operator.h	40;"	d
+XYXX	inc/operator.h	74;"	d
+XYXY	inc/operator.h	87;"	d
+XYXZ	inc/operator.h	100;"	d
+XYY	inc/operator.h	50;"	d
+XYYX	inc/operator.h	82;"	d
+XYYY	inc/operator.h	110;"	d
+XYYZ	inc/operator.h	123;"	d
+XYZ	inc/operator.h	60;"	d
+XYZX	inc/operator.h	89;"	d
+XYZY	inc/operator.h	117;"	d
+XYZZ	inc/operator.h	133;"	d
+XZ	inc/operator.h	31;"	d
+XZX	inc/operator.h	42;"	d
+XZXX	inc/operator.h	79;"	d
+XZXY	inc/operator.h	97;"	d
+XZXZ	inc/operator.h	107;"	d
+XZY	inc/operator.h	52;"	d
+XZYX	inc/operator.h	90;"	d
+XZYY	inc/operator.h	118;"	d
+XZYZ	inc/operator.h	134;"	d
+XZZ	inc/operator.h	62;"	d
+XZZX	inc/operator.h	102;"	d
+XZZY	inc/operator.h	130;"	d
+XZZZ	inc/operator.h	141;"	d
+Y	inc/operator.h	25;"	d
+YX	inc/operator.h	30;"	d
+YXX	inc/operator.h	41;"	d
+YXXX	inc/operator.h	73;"	d
+YXXY	inc/operator.h	86;"	d
+YXXZ	inc/operator.h	99;"	d
+YXY	inc/operator.h	51;"	d
+YXYX	inc/operator.h	83;"	d
+YXYY	inc/operator.h	111;"	d
+YXYZ	inc/operator.h	124;"	d
+YXZ	inc/operator.h	61;"	d
+YXZX	inc/operator.h	91;"	d
+YXZY	inc/operator.h	119;"	d
+YXZZ	inc/operator.h	135;"	d
+YY	inc/operator.h	33;"	d
+YYX	inc/operator.h	44;"	d
+YYXX	inc/operator.h	84;"	d
+YYXY	inc/operator.h	112;"	d
+YYXZ	inc/operator.h	125;"	d
+YYY	inc/operator.h	54;"	d
+YYYX	inc/operator.h	109;"	d
+YYYY	inc/operator.h	145;"	d
+YYYZ	inc/operator.h	150;"	d
+YYZ	inc/operator.h	64;"	d
+YYZX	inc/operator.h	114;"	d
+YYZY	inc/operator.h	147;"	d
+YYZZ	inc/operator.h	152;"	d
+YZ	inc/operator.h	34;"	d
+YZX	inc/operator.h	45;"	d
+YZXX	inc/operator.h	92;"	d
+YZXY	inc/operator.h	120;"	d
+YZXZ	inc/operator.h	136;"	d
+YZY	inc/operator.h	55;"	d
+YZYX	inc/operator.h	115;"	d
+YZYY	inc/operator.h	148;"	d
+YZYZ	inc/operator.h	153;"	d
+YZZ	inc/operator.h	65;"	d
+YZZX	inc/operator.h	127;"	d
+YZZY	inc/operator.h	155;"	d
+YZZZ	inc/operator.h	160;"	d
+Z	inc/operator.h	26;"	d
+ZX	inc/operator.h	32;"	d
+ZXX	inc/operator.h	43;"	d
+ZXXX	inc/operator.h	78;"	d
+ZXXY	inc/operator.h	96;"	d
+ZXXZ	inc/operator.h	106;"	d
+ZXY	inc/operator.h	53;"	d
+ZXYX	inc/operator.h	93;"	d
+ZXYY	inc/operator.h	121;"	d
+ZXYZ	inc/operator.h	137;"	d
+ZXZ	inc/operator.h	63;"	d
+ZXZX	inc/operator.h	104;"	d
+ZXZY	inc/operator.h	132;"	d
+ZXZZ	inc/operator.h	143;"	d
+ZY	inc/operator.h	35;"	d
+ZYX	inc/operator.h	46;"	d
+ZYXX	inc/operator.h	94;"	d
+ZYXY	inc/operator.h	122;"	d
+ZYXZ	inc/operator.h	138;"	d
+ZYY	inc/operator.h	56;"	d
+ZYYX	inc/operator.h	116;"	d
+ZYYY	inc/operator.h	149;"	d
+ZYYZ	inc/operator.h	154;"	d
+ZYZ	inc/operator.h	66;"	d
+ZYZX	inc/operator.h	129;"	d
+ZYZY	inc/operator.h	157;"	d
+ZYZZ	inc/operator.h	162;"	d
+ZZ	inc/operator.h	36;"	d
+ZZX	inc/operator.h	47;"	d
+ZZXX	inc/operator.h	103;"	d
+ZZXY	inc/operator.h	131;"	d
+ZZXZ	inc/operator.h	142;"	d
+ZZY	inc/operator.h	57;"	d
+ZZYX	inc/operator.h	128;"	d
+ZZYY	inc/operator.h	156;"	d
+ZZYZ	inc/operator.h	161;"	d
+ZZZ	inc/operator.h	67;"	d
+ZZZX	inc/operator.h	140;"	d
+ZZZY	inc/operator.h	159;"	d
+ZZZZ	inc/operator.h	164;"	d
+a_flat_lcdm_t	src/initial.c	/^double a_flat_lcdm_t(double time)$/;"	f
+acc	inc/mytypes.h	/^	double acc[3];$/;"	m	struct:__anon1
+acc	inc/mytypes.h	/^	double acc[3];$/;"	m	struct:__anon7
+acc	src/slave_kernels.c	/^	double acc[3];$/;"	m	struct:__anon13	file:
+acc_direct	inc/mytypes.h	/^	double acc_direct[4];$/;"	m	struct:__anon7
+acc_pm	inc/mytypes.h	/^    	double acc_pm[3];$/;"	m	struct:__anon7
+acc_split	inc/mytypes.h	/^	double acc_split[3];$/;"	m	struct:__anon7
+acc_tree	inc/mytypes.h	/^	double acc_tree[4];$/;"	m	struct:__anon7
+accept_count	inc/photoNs.h	/^INT64 accept_count;$/;"	v
+acceptance	src/fmm.c	/^inline int acceptance(double wi[3], double wj[3], double dist[3]) $/;"	f
+accx	src/task_slave.c	/^__thread_local double   accx[NPACK];$/;"	v
+accy	src/task_slave.c	/^__thread_local double   accy[NPACK];$/;"	v
+accz	src/task_slave.c	/^__thread_local double   accz[NPACK];$/;"	v
+active	inc/mytypes.h	/^	int active;$/;"	m	struct:__anon7
+active_count	inc/photoNs.h	/^INT64 active_count;$/;"	v
+active_particle	src/adaptive.c	/^void active_particle (double ai, double af)$/;"	f
+adaptive_level_maximum	inc/photoNs.h	/^int adaptive_level_maximum;$/;"	v
+alone_i_task	inc/mytypes.h	/^	 p2p_package alone_i_task[slave_task_alone];    $/;"	m	struct:__anon3
+alone_i_task	src/slave_kernels.c	/^	 p2p_package alone_i_task[slave_task_alone];    $/;"	m	struct:__anon15	file:
+alone_j_task	inc/mytypes.h	/^         p2p_package alone_j_task[slave_task_alone];	  $/;"	m	struct:__anon3
+alone_j_task	src/slave_kernels.c	/^         p2p_package alone_j_task[slave_task_alone];	  $/;"	m	struct:__anon15	file:
+bk_recvbody	inc/photoNs.h	/^void *bk_recvtree, *bk_recvbody;$/;"	v
+bk_recvbody_remote	inc/photoNs.h	/^void *bk_recvtree_remote, *bk_recvbody_remote;$/;"	v
+bk_recvbodym	inc/photoNs.h	/^void *bk_recvtreem, *bk_recvbodym;$/;"	v
+bk_recvtree	inc/photoNs.h	/^void *bk_recvtree, *bk_recvbody;$/;"	v
+bk_recvtree_remote	inc/photoNs.h	/^void *bk_recvtree_remote, *bk_recvbody_remote;$/;"	v
+bk_recvtreem	inc/photoNs.h	/^void *bk_recvtreem, *bk_recvbodym;$/;"	v
+bk_sendbody	inc/photoNs.h	/^void *bk_sendtree, *bk_sendbody;$/;"	v
+bk_sendbody_remote	inc/photoNs.h	/^void *bk_sendtree_remote, *bk_sendbody_remote;$/;"	v
+bk_sendbodym	inc/photoNs.h	/^void *bk_sendtreem, *bk_sendbodym;$/;"	v
+bk_sendtree	inc/photoNs.h	/^void *bk_sendtree, *bk_sendbody;$/;"	v
+bk_sendtree_remote	inc/photoNs.h	/^void *bk_sendtree_remote, *bk_sendbody_remote;$/;"	v
+bk_sendtreem	inc/photoNs.h	/^void *bk_sendtreem, *bk_sendbodym;$/;"	v
+bksort_body_inplace	src/domains.c	/^void bksort_body_inplace(int D, Body *p, int length, int npart[2], double split)$/;"	f
+bksort_inplace	src/fmm.c	/^void bksort_inplace(int D, Body *p, int length, int npart[2], double *split)$/;"	f
+btree	inc/mytypes.h	/^Node *btree;$/;"	v
+build_kdtree	src/fmm.c	/^void build_kdtree(int direct, int iPart, int length, int iNode)$/;"	f
+build_localtree	src/fmm.c	/^void build_localtree() {$/;"	f
+center	inc/mytypes.h	/^	double center[3];$/;"	m	struct:__anon5
+center	inc/mytypes.h	/^	double center[3];$/;"	m	struct:__anon6
+center	inc/photoNs.h	/^	double center[3];$/;"	m	struct:__anon11
+center	inc/photoNs.h	/^	double center[3];$/;"	m	struct:__anon9
+center_kdtree	src/fmm.c	/^void center_kdtree(int direct, int iNode, double left[3], double right[3])$/;"	f
+center_toptree	src/toptree.c	/^void center_toptree(int direct, int iNode, double left[3], double right[3])$/;"	f
+changed	inc/mytypes.h	/^	int  changed;$/;"	m	struct:__anon5
+changed	inc/mytypes.h	/^	int  changed;$/;"	m	struct:__anon6
+check	src/toptree.c	/^void check(int npart) {$/;"	f
+clean_toptree	src/toptree.c	/^void clean_toptree()  {$/;"	f
+coeff	src/slave_kernels.c	/^	   double coeff;$/;"	m	struct:__anon17	file:
+coeff	src/task_slave.c	/^__thread_local double   dx, dy, dz, dr, ir3, gf, coeff, mg, irs, r, soft;$/;"	v
+connect_local_toptree	src/toptree.c	/^void connect_local_toptree()$/;"	f
+construct_toptree	src/toptree.c	/^void construct_toptree()$/;"	f
+conv_pmonly	inc/partmesh.h	23;"	d
+conv_pmonly	src/conv.f90	/^subroutine conv_pmonly(/;"	s
+convolution	inc/partmesh.h	22;"	d
+convolution	src/conv.f90	/^subroutine convolution(/;"	s
+cosmos_ic	src/initial.c	/^void cosmos_ic(double box, int npart) {$/;"	f
+count_crushing_step	inc/photoNs.h	/^int count_crushing_step ;$/;"	v
+cutoffRadius	inc/photoNs.h	/^double cutoffRadius;$/;"	v
+dTlocal	src/fmm.c	/^static double dTlocal, dTremote, dTmirror;$/;"	v	file:
+dTmirror	src/fmm.c	/^static double dTlocal, dTremote, dTmirror;$/;"	v	file:
+dTremote	src/fmm.c	/^static double dTlocal, dTremote, dTmirror;$/;"	v	file:
+data	inc/photoNs.h	/^double  *data;$/;"	v
+decomp_2d_init	src/initial.c	302;"	d	file:
+deconstruct_toptree	src/toptree.c	/^void deconstruct_toptree() {$/;"	f
+densitykspace	inc/partmesh.h	24;"	d
+densitykspace	src/conv.f90	/^subroutine densitykspace(/;"	s
+determine_split_domtree	src/domains.c	/^void determine_split_domtree(int size, int npart, DomainNode *tree)$/;"	f
+determine_split_node	src/domains.c	/^void determine_split_node(int D, int nproc, int iNode, DomainNode *tree, double bl[], double br[])$/;"	f
+direct_local_start	inc/photoNs.h	/^int direct_local_start;$/;"	v
+domain_decomposition	src/domains.c	/^void domain_decomposition() $/;"	f
+domain_finalize	src/domains.c	/^void domain_finalize() {$/;"	f
+domain_initialize	src/domains.c	/^void domain_initialize() {$/;"	f
+domain_volume_part	src/domains.c	/^void domain_volume_part(int iNode, double boxl[], double boxr[], int dim) {$/;"	f
+domtree	inc/photoNs.h	/^DomainNode *domtree;$/;"	v
+dr	src/task_slave.c	/^__thread_local double   dx, dy, dz, dr, ir3, gf, coeff, mg, irs, r, soft;$/;"	v
+drift_loga	src/initial.c	/^double drift_loga(double loga_i, double loga_f)$/;"	f
+driver	src/photoNs.c	/^void driver(double ai, double af, int snap_idx, int nstep_fix) {$/;"	f
+dtime	src/utility.c	/^double dtime() \/\/ Return double style timestamp using gettimeofday().$/;"	f
+dtime_ext	inc/photoNs.h	/^double dtime_ext;$/;"	v
+dtime_fmm	inc/photoNs.h	/^double dtime_fmm;$/;"	v
+dtime_fmm_adex	inc/photoNs.h	/^double dtime_fmm_adex;$/;"	v
+dtime_fmm_adlc	inc/photoNs.h	/^double dtime_fmm_adlc;$/;"	v
+dtime_fmm_remote	inc/photoNs.h	/^double dtime_fmm_remote;$/;"	v
+dtime_m2l	inc/photoNs.h	/^double dtime_m2l;$/;"	v
+dtime_p2p	inc/photoNs.h	/^double dtime_p2p;$/;"	v
+dtime_p2p_adex	inc/photoNs.h	/^double dtime_p2p_adex;$/;"	v
+dtime_p2p_adlc	inc/photoNs.h	/^double dtime_p2p_adlc;$/;"	v
+dtime_p2p_mirror	inc/photoNs.h	/^double dtime_p2p_mirror;$/;"	v
+dtime_p2p_remote	inc/photoNs.h	/^double dtime_p2p_remote;$/;"	v
+dtime_pm	inc/photoNs.h	/^double dtime_pm;$/;"	v
+dtime_prep	inc/photoNs.h	/^double dtime_prep;$/;"	v
+dtime_prep_ext	inc/photoNs.h	/^double dtime_prep_ext;$/;"	v
+dtime_task	inc/photoNs.h	/^double dtime_task;$/;"	v
+dx	src/task_slave.c	/^__thread_local double   dx, dy, dz, dr, ir3, gf, coeff, mg, irs, r, soft;$/;"	v
+dy	src/task_slave.c	/^__thread_local double   dx, dy, dz, dr, ir3, gf, coeff, mg, irs, r, soft;$/;"	v
+dz	src/task_slave.c	/^__thread_local double   dx, dy, dz, dr, ir3, gf, coeff, mg, irs, r, soft;$/;"	v
+end	src/task_slave.c	/^__thread_local volatile unsigned long start, end;$/;"	v
+exrbody	inc/photoNs.h	/^RemoteBody *exrbody;$/;"	v
+exrtree	inc/photoNs.h	/^RemoteNode *exrtree;$/;"	v
+exsbody	inc/photoNs.h	/^RemoteBody *exsbody;$/;"	v
+exstree	inc/photoNs.h	/^RemoteNode *exstree;$/;"	v
+fill	src/snapshot.c	/^	char fill[256-6*4-6*8-2*8-2*4-6*4-2*4-4*8];	$/;"	m	struct:__anon18	file:
+fill_time_domtree	src/domains.c	/^double fill_time_domtree(int iNode)$/;"	f
+finalizeLogfile	src/utility.c	/^void finalizeLogfile() {$/;"	f
+finalize_nbody	src/initial.c	/^void finalize_nbody()$/;"	f
+first_domain	inc/photoNs.h	/^int first_domain;$/;"	v
+first_leaf	inc/photoNs.h	/^int first_leaf, last_leaf;$/;"	v
+first_node	inc/photoNs.h	/^int first_node, last_node;$/;"	v
+fixed_stepping	inc/photoNs.h	/^double fixed_stepping;$/;"	v
+flag_cooling	src/snapshot.c	/^	int flag_cooling;$/;"	m	struct:__anon18	file:
+flag_feedback	src/snapshot.c	/^	int flag_feedback;$/;"	m	struct:__anon18	file:
+flag_sfr	src/snapshot.c	/^	int flag_sfr;$/;"	m	struct:__anon18	file:
+flog	src/utility.c	/^static FILE *flog;$/;"	v	file:
+fmm_adaptive_solver	src/adaptive.c	/^void fmm_adaptive_solver( int adaptive_level ){$/;"	f
+fmm_construct	src/fmm.c	/^void fmm_construct( ) {$/;"	f
+fmm_deconstruct	src/fmm.c	/^void fmm_deconstruct() $/;"	f
+fmm_ext	src/fmm.c	/^void fmm_ext(){$/;"	f
+fmm_prepare	src/fmm.c	/^void fmm_prepare() $/;"	f
+fmm_remote	src/remotes.c	/^void fmm_remote(int idx, double displace[3])$/;"	f
+fmm_remote_task	src/remotes.c	/^void fmm_remote_task (int numrecv)$/;"	f
+fmm_solver_total	src/fmm.c	/^void fmm_solver_total()$/;"	f
+fmm_task	src/fmm.c	/^void fmm_task() {$/;"	f
+fmm_task_athread_test	src/fmm.c	/^void fmm_task_athread_test() {$/;"	f
+fmm_task_openmp	src/fmm.c	/^void fmm_task_openmp() {$/;"	f
+fmm_task_parallel	src/task.c	/^void fmm_task_parallel(int NumThread) $/;"	f
+fmm_task_parallel_kernel	src/task.c	/^void fmm_task_parallel_kernel(int  gang) {$/;"	f
+fmm_task_parallel_kernel_athread	src/task_slave.c	/^void fmm_task_parallel_kernel_athread() {$/;"	f
+fraction	src/domains.c	/^double fraction(int size, int *l, int *r) {$/;"	f
+get_local_size	src/conv.f90	/^subroutine get_local_size(/;"	s
+get_reply	src/task_slave.c	/^__thread_local volatile unsigned long get_reply, put_reply;$/;"	v
+gf	src/task_slave.c	/^__thread_local double   dx, dy, dz, dr, ir3, gf, coeff, mg, irs, r, soft;$/;"	v
+gravfunc	inc/photoNs.h	/^double *gravfunc;$/;"	v
+ic_pmfmm	src/utility.c	/^void ic_pmfmm(){$/;"	f
+ic_uniform	src/initial.c	/^void ic_uniform(double box, int npart) {$/;"	f
+id	inc/mytypes.h	/^    	long id;$/;"	m	struct:__anon7
+idxM2L	inc/photoNs.h	/^int idxM2L;$/;"	v
+idxM2Lext	inc/photoNs.h	/^int idxM2Lext;$/;"	v
+idxP2P	inc/photoNs.h	/^int idxP2P;$/;"	v
+idxP2Pext	inc/photoNs.h	/^int idxP2Pext;$/;"	v
+idxp2p	src/slave_kernels.c	/^	   int idxp2p;  $/;"	m	struct:__anon17	file:
+initializeLogfile	src/utility.c	/^void initializeLogfile() {$/;"	f
+initialize_nbody	src/initial.c	/^void initialize_nbody(char parameterfile[])$/;"	f
+intergra	src/fmm.c	/^void intergra(){$/;"	f
+invGravFunc	inc/photoNs.h	/^double invGravFunc;$/;"	v
+ipart	inc/mytypes.h	/^	int ipart;$/;"	m	struct:__anon6
+ir3	src/task_slave.c	/^__thread_local double   dx, dy, dz, dr, ir3, gf, coeff, mg, irs, r, soft;$/;"	v
+irs	src/task_slave.c	/^__thread_local double   dx, dy, dz, dr, ir3, gf, coeff, mg, irs, r, soft;$/;"	v
+kdk2_level	src/adaptive.c	/^void kdk2_level (double dkh, double dd, int level)$/;"	f
+kdk_level	src/adaptive.c	/^void kdk_level (double dkh, double dd, int level)$/;"	f
+kick_loga	src/initial.c	/^double kick_loga(double loga_i, double loga_f) {$/;"	f
+l2l	src/operator.c	/^void l2l(double dx, double dy, double dz, double L[], double toL[]) $/;"	f
+l2p	src/operator.c	/^void l2p( int ileaf )$/;"	f
+last_domain	inc/photoNs.h	/^int last_domain;$/;"	v
+last_leaf	inc/photoNs.h	/^int first_leaf, last_leaf;$/;"	v
+last_node	inc/photoNs.h	/^int first_node, last_node;$/;"	v
+last_sendbody	inc/photoNs.h	/^int last_sendbody;$/;"	v
+last_sendbody_remote	inc/photoNs.h	/^int last_sendbody_remote;$/;"	v
+last_sendbodym	inc/photoNs.h	/^int last_sendbodym;$/;"	v
+last_sendtree	inc/photoNs.h	/^int last_sendtree;$/;"	v
+last_sendtree_remote	inc/photoNs.h	/^int last_sendtree_remote;$/;"	v
+last_sendtreem	inc/photoNs.h	/^int last_sendtreem;$/;"	v
+leaf	inc/mytypes.h	/^Pack *leaf;$/;"	v
+leaf_updated	src/adaptive.c	/^int leaf_updated(int active_level, int iPart, int npart) $/;"	f
+len	inc/mytypes.h	/^	double len;$/;"	m	struct:__anon7
+limiter_domain	inc/photoNs.h	/^int limiter_domain;$/;"	v
+local_xend	inc/photoNs.h	/^int local_xend[3];$/;"	v
+local_xsize	inc/photoNs.h	/^int local_xsize[3];$/;"	v
+local_xstart	inc/photoNs.h	/^int local_xstart[3];$/;"	v
+loop_step	inc/photoNs.h	/^int loop_step;$/;"	v
+m2l	src/operator.c	/^void m2l(double dx, double dy, double dz, double M[], double toL[]) $/;"	f
+m2l_count	inc/mytypes.h	/^	int m2l_count;$/;"	m	struct:__anon5
+m2l_count	inc/mytypes.h	/^	int m2l_count;$/;"	m	struct:__anon6
+m2l_count	inc/photoNs.h	/^INT64 m2l_count;$/;"	v
+m2l_disp	inc/mytypes.h	/^	int m2l_disp;$/;"	m	struct:__anon5
+m2l_disp	inc/mytypes.h	/^	int m2l_disp;$/;"	m	struct:__anon6
+m2m	src/operator.c	/^void m2m(double dx, double dy, double dz, double M[], double tM[]) $/;"	f
+main	src/photoNs.c	/^int main(int argc, char* argv[]) $/;"	f
+make_appendix	src/photoNs.c	/^void make_appendix(double total_time) {$/;"	f
+make_title	src/photoNs.c	/^void make_title(){$/;"	f
+mass	inc/mytypes.h	/^	double mass;$/;"	m	struct:__anon1
+mass	inc/mytypes.h	/^	double mass;$/;"	m	struct:__anon7
+mass	inc/photoNs.h	/^	double mass;$/;"	m	struct:__anon10
+mass	src/slave_kernels.c	/^	double mass;$/;"	m	struct:__anon13	file:
+mass	src/snapshot.c	/^	double mass[6];$/;"	m	struct:__anon18	file:
+masspart	inc/mytypes.h	/^double masspart;$/;"	v
+measure_domain_runtime	src/domains.c	/^void measure_domain_runtime(double dTimeFrac) {$/;"	f
+mem_shift	src/utility.c	/^void mem_shift(int source, int target){$/;"	f
+memused	inc/utility.h	/^size_t memused[MEMBLOCK];$/;"	v
+mg	src/task_slave.c	/^__thread_local double   dx, dy, dz, dr, ir3, gf, coeff, mg, irs, r, soft;$/;"	v
+mostleft	inc/photoNs.h	/^int mostleft;$/;"	v
+my_id	src/task_slave.c	/^__thread_local int  my_id;$/;"	v
+nExtDomain	inc/photoNs.h	/^int nExtDomain;$/;"	v
+npart	inc/mytypes.h	/^	int  npart;$/;"	m	struct:__anon5
+npart	inc/mytypes.h	/^	int npart;$/;"	m	struct:__anon2
+npart	inc/mytypes.h	/^	int npart;$/;"	m	struct:__anon6
+npart	inc/photoNs.h	/^	int npart;$/;"	m	struct:__anon9
+npart	src/slave_kernels.c	/^	int npart;$/;"	m	struct:__anon14	file:
+npart	src/snapshot.c	/^	int npart[6];$/;"	m	struct:__anon18	file:
+npartTotal	src/snapshot.c	/^	int npartTotal[6];$/;"	m	struct:__anon18	file:
+npart_infile	src/snapshot.c	/^void npart_infile(const char filename[], int ith, int np[])$/;"	f
+nsample_rank	inc/domains.h	/^int nsample_rank;$/;"	v
+nsample_rank_prev	inc/domains.h	/^int nsample_rank_prev;$/;"	v
+num_files	src/snapshot.c	/^	int num_files;$/;"	m	struct:__anon18	file:
+number_snaptime	inc/photoNs.h	/^int number_snaptime;$/;"	v
+numbody	src/remotes.c	/^static int numbody;$/;"	v	file:
+numnode	src/remotes.c	/^static int numnode;$/;"	v	file:
+open_angle	inc/photoNs.h	/^double open_angle;$/;"	v
+open_count	inc/photoNs.h	/^INT64 open_count;$/;"	v
+p	src/slave_kernels.c	/^	   p2p_rota_task *p;$/;"	m	struct:__anon17	file:
+p2m	src/operator.c	/^void p2m(int iPart, int npart, double center[3], double M[]) $/;"	f
+p2p_alone_task	inc/mytypes.h	/^ }p2p_alone_task;$/;"	t	typeref:struct:__anon3
+p2p_alone_task	src/slave_kernels.c	/^}p2p_alone_task;$/;"	t	typeref:struct:__anon15	file:
+p2p_count	inc/photoNs.h	/^INT64 p2p_count;$/;"	v
+p2p_count_inleaf	inc/photoNs.h	/^INT64 p2p_count_inleaf;$/;"	v
+p2p_count_remote	inc/photoNs.h	/^INT64 p2p_count_remote;$/;"	v
+p2p_kernel	src/kernels.c	/^void p2p_kernel(int inode, int jnode) {$/;"	f
+p2p_kernel_ex	src/remotes.c	/^void p2p_kernel_ex(int inode, int jnode)$/;"	f
+p2p_kernel_mirror_adaptive	src/adaptive.c	/^void p2p_kernel_mirror_adaptive(int inode, int jnode, int level)$/;"	f
+p2p_kernel_remote_adaptive	src/adaptive.c	/^void p2p_kernel_remote_adaptive(int inode, int jnode, int level)$/;"	f
+p2p_kernel_slave	src/slave_kernels.c	/^void p2p_kernel_slave(slave_data *slave_all){$/;"	f
+p2p_node	inc/mytypes.h	/^} p2p_node;$/;"	t	typeref:struct:__anon1
+p2p_node	src/slave_kernels.c	/^} p2p_node;$/;"	t	typeref:struct:__anon13	file:
+p2p_package	inc/mytypes.h	/^} p2p_package;$/;"	t	typeref:struct:__anon2
+p2p_package	src/slave_kernels.c	/^} p2p_package;$/;"	t	typeref:struct:__anon14	file:
+p2p_rota_task	inc/mytypes.h	/^}p2p_rota_task;$/;"	t	typeref:struct:__anon4
+p2p_rpta_task	src/slave_kernels.c	/^}p2p_rpta_task;$/;"	t	typeref:struct:__anon16	file:
+p2p_task	inc/mytypes.h	/^        p2p_alone_task p2p_task[64];  	  $/;"	m	struct:__anon4
+p2p_task	src/slave_kernels.c	/^        p2p_alone_task p2p_task[64];  	  $/;"	m	struct:__anon16	file:
+p_side	inc/photoNs.h	/^int p_side;$/;"	v
+pack2pack_cnt	inc/mytypes.h	/^	int pack2pack_cnt;$/;"	m	struct:__anon6
+pack2pack_count	inc/mytypes.h	/^	int pack2pack_count;$/;"	m	struct:__anon6
+pack2pack_count	inc/photoNs.h	/^INT64 pack2pack_count;$/;"	v
+pack2pack_inleaf_count	inc/photoNs.h	/^INT64 pack2pack_inleaf_count;$/;"	v
+package	inc/mytypes.h	/^	p2p_node package[MAX_PACKAGE]; $/;"	m	struct:__anon2
+package	src/slave_kernels.c	/^	p2p_node package[MAX_PACKAGE]; $/;"	m	struct:__anon14	file:
+par	src/task_slave.c	/^__thread_local double   par[4];$/;"	v
+param	inc/mytypes.h	/^double param[4];$/;"	v
+part	inc/mytypes.h	/^Body *part;$/;"	v
+partmass	src/snapshot.c	/^static double partmass[6];$/;"	v	file:
+partmesh	src/partmesh.c	/^void partmesh()$/;"	f
+partmesh_thread	src/partmesh.c	/^void partmesh_thread()$/;"	f
+pfree	src/utility.c	/^void pfree(void* ptr, int idx) {$/;"	f
+pm_thread	src/partmesh.c	/^void* pm_thread(void *arg) {$/;"	f
+pmalloc	src/utility.c	/^void* pmalloc (size_t size, int idx) {$/;"	f
+pos	inc/mytypes.h	/^	double pos[3];$/;"	m	struct:__anon1
+pos	inc/mytypes.h	/^	double pos[3];$/;"	m	struct:__anon7
+pos	inc/photoNs.h	/^	double pos[3];$/;"	m	struct:__anon10
+pos	src/slave_kernels.c	/^	double pos[3];$/;"	m	struct:__anon13	file:
+powerspectrum	src/partmesh.c	/^void powerspectrum(char powname[]) $/;"	f
+prepare_body_inOrderOf_domain	src/domains.c	/^void prepare_body_inOrderOf_domain(int D,  Body *p, int length, int iNode, int send[]) $/;"	f
+prepare_deliver_realloc_body	src/domains.c	/^void prepare_deliver_realloc_body(int *npart)$/;"	f
+prepare_sendtree2	src/remotes.c	/^void prepare_sendtree2(int isend, int ilocal, int tNode, int D, double displace[3])$/;"	f
+print_usage	src/initial.c	/^static void print_usage (int bad) $/;"	f	file:
+prmBOXSIZE	src/initial.c	/^static double prmBOXSIZE = -1.0;$/;"	v	file:
+prmHUBBLE	src/initial.c	/^static double prmHUBBLE = -1.0;$/;"	v	file:
+prmINITIALTIME	src/initial.c	/^static double prmINITIALTIME  = -1.0;$/;"	v	file:
+prmNUMPART	src/initial.c	/^static unsigned int prmNUMPART  = 0;$/;"	v	file:
+prmOMEGAM	src/initial.c	/^static double prmOMEGAM = -1.0;$/;"	v	file:
+prmOMEGAX	src/initial.c	/^static double prmOMEGAX = -1.0;$/;"	v	file:
+prmSOFTENSCALE	src/initial.c	/^static double prmSOFTENSCALE  = -1.0;$/;"	v	file:
+prmSPLITSCALE	src/initial.c	/^static double prmSPLITSCALE  = -1.0;$/;"	v	file:
+pside	inc/photoNs.h	/^int pside[2];$/;"	v
+put_reply	src/task_slave.c	/^__thread_local volatile unsigned long get_reply, put_reply;$/;"	v
+r	src/task_slave.c	/^__thread_local double   dx, dy, dz, dr, ir3, gf, coeff, mg, irs, r, soft;$/;"	v
+ran3	src/utility.c	/^float ran3(long *idum)$/;"	f
+read_GadgetHeader	src/snapshot.c	/^void read_GadgetHeader(const char filename[])$/;"	f
+read_Particle	src/snapshot.c	/^void read_Particle(char filename[], int n_start, int n_count)$/;"	f
+read_Particle_Gadget2	src/snapshot.c	/^void read_Particle_Gadget2(char filename[], int n_start, int n_count)$/;"	f
+read_Particle_Gadget2_mfile	src/snapshot.c	/^void read_Particle_Gadget2_mfile(char filename[], int n_start, int n_end, int ip)$/;"	f
+read_Particle_text	src/snapshot.c	/^void read_Particle_text(char filename[], int n_start, int n_count) $/;"	f
+readin_parameter_file	src/initial.c	/^void readin_parameter_file(char parameterfile[])$/;"	f
+recdisp_body	inc/photoNs.h	/^int *recdisp_body ;$/;"	v
+recdisp_body_remote	inc/photoNs.h	/^int *recdisp_body_remote ;$/;"	v
+recdisp_bodym	inc/photoNs.h	/^int *recdisp_bodym ;$/;"	v
+recdisp_node	inc/photoNs.h	/^int *recdisp_node ;$/;"	v
+recdisp_node_remote	inc/photoNs.h	/^int *recdisp_node_remote ;$/;"	v
+recdisp_nodem	inc/photoNs.h	/^int *recdisp_nodem ;$/;"	v
+recvbody	inc/photoNs.h	/^RemoteBody *recvbody;$/;"	v
+recvbody_remote	inc/photoNs.h	/^RemoteBody *recvbody_remote;$/;"	v
+recvbodym	inc/photoNs.h	/^RemoteBody *recvbodym;$/;"	v
+recvcnt_body	inc/photoNs.h	/^int *recvcnt_body ;$/;"	v
+recvcnt_body_remote	inc/photoNs.h	/^int *recvcnt_body_remote ;$/;"	v
+recvcnt_bodym	inc/photoNs.h	/^int *recvcnt_bodym ;$/;"	v
+recvcnt_node	inc/photoNs.h	/^int *recvcnt_node ;$/;"	v
+recvcnt_node_remote	inc/photoNs.h	/^int *recvcnt_node_remote ;$/;"	v
+recvcnt_nodem	inc/photoNs.h	/^int *recvcnt_nodem ;$/;"	v
+recvtree	inc/photoNs.h	/^RemoteNode *recvtree;$/;"	v
+recvtree_remote	inc/photoNs.h	/^RemoteNode *recvtree_remote;$/;"	v
+recvtreem	inc/photoNs.h	/^RemoteNode *recvtreem;$/;"	v
+redshift	src/snapshot.c	/^	double redshift;$/;"	m	struct:__anon18	file:
+reset_mem	src/utility.c	/^void reset_mem() {$/;"	f
+rs	src/slave_kernels.c	/^	   double rs;$/;"	m	struct:__anon17	file:
+seed	inc/photoNs.h	/^long int seed;$/;"	v
+sendbody	inc/photoNs.h	/^RemoteBody *sendbody;$/;"	v
+sendbody_remote	inc/photoNs.h	/^RemoteBody *sendbody_remote;$/;"	v
+sendbodym	inc/photoNs.h	/^RemoteBody *sendbodym;$/;"	v
+sendcnt_body	inc/photoNs.h	/^int *sendcnt_body ;$/;"	v
+sendcnt_body_remote	inc/photoNs.h	/^int *sendcnt_body_remote ;$/;"	v
+sendcnt_bodym	inc/photoNs.h	/^int *sendcnt_bodym ;$/;"	v
+sendcnt_node	inc/photoNs.h	/^int *sendcnt_node ;$/;"	v
+sendcnt_node_remote	inc/photoNs.h	/^int *sendcnt_node_remote ;$/;"	v
+sendcnt_nodem	inc/photoNs.h	/^int *sendcnt_nodem ;$/;"	v
+sendisp_body	inc/photoNs.h	/^int *sendisp_body ;$/;"	v
+sendisp_body_remote	inc/photoNs.h	/^int *sendisp_body_remote ;$/;"	v
+sendisp_bodym	inc/photoNs.h	/^int *sendisp_bodym ;$/;"	v
+sendisp_node	inc/photoNs.h	/^int *sendisp_node ;$/;"	v
+sendisp_node_remote	inc/photoNs.h	/^int *sendisp_node_remote ;$/;"	v
+sendisp_nodem	inc/photoNs.h	/^int *sendisp_nodem ;$/;"	v
+sendtree	inc/photoNs.h	/^RemoteNode *sendtree;$/;"	v
+sendtree_remote	inc/photoNs.h	/^RemoteNode *sendtree_remote;$/;"	v
+sendtreem	inc/photoNs.h	/^RemoteNode *sendtreem;$/;"	v
+setup	src/utility.c	/^void setup(int NPART, double BOXSIZE) {$/;"	f
+setup_domain_index	src/initial.c	/^void setup_domain_index() {$/;"	f
+setup_parallel	src/utility.c	/^void setup_parallel(int NPART, double BOXSIZE) {$/;"	f
+setup_parallel_sphere	src/utility.c	/^void setup_parallel_sphere(int NPART, double RADIUS) {$/;"	f
+setup_parallel_zoomin	src/utility.c	/^void setup_parallel_zoomin(int NPART, double minBox, double BOXSIZE) {$/;"	f
+showtree	src/operator.c	/^void showtree() {$/;"	f
+simple_snapshot	src/initial.c	/^void simple_snapshot(char fbase[]) {$/;"	f
+slave_data	src/slave_kernels.c	/^}slave_data;$/;"	t	typeref:struct:__anon17	file:
+slave_task_alone	inc/mytypes.h	25;"	d
+snaptime	inc/photoNs.h	/^double snaptime[MAXSNAP];$/;"	v
+snp	src/task_slave.c	/^__thread_local int  snp[NSEG];$/;"	v
+snp_core	src/fmm.c	/^int    snp_core[NCORE][NSEG];$/;"	v
+soft	src/task_slave.c	/^__thread_local double   dx, dy, dz, dr, ir3, gf, coeff, mg, irs, r, soft;$/;"	v
+softlen	inc/mytypes.h	/^double softlen;$/;"	v
+son	inc/mytypes.h	/^	int  son[NSON];$/;"	m	struct:__anon5
+son	inc/photoNs.h	/^	int  son[NSON];$/;"	m	struct:__anon11
+son	inc/photoNs.h	/^	int  son[NSON];$/;"	m	struct:__anon12
+son	inc/photoNs.h	/^	int  son[NSON];$/;"	m	struct:__anon9
+split	inc/mytypes.h	/^	double split;$/;"	m	struct:__anon5
+split	inc/photoNs.h	/^	double split;$/;"	m	struct:__anon11
+split	inc/photoNs.h	/^	double split;$/;"	m	struct:__anon12
+splitRadius	inc/photoNs.h	/^double splitRadius;$/;"	v
+split_previous	inc/photoNs.h	/^	double split_previous;$/;"	m	struct:__anon12
+spx	src/task_slave.c	/^__thread_local double   spx[NSEG][NPACK];$/;"	v
+spx_core	src/fmm.c	/^double spx_core[NCORE][NSEG][NPACK];$/;"	v
+spy	src/task_slave.c	/^__thread_local double   spy[NSEG][NPACK];$/;"	v
+spy_core	src/fmm.c	/^double spy_core[NCORE][NSEG][NPACK];$/;"	v
+spz	src/task_slave.c	/^__thread_local double   spz[NSEG][NPACK];$/;"	v
+spz_core	src/fmm.c	/^double spz_core[NCORE][NSEG][NPACK];$/;"	v
+start	src/task_slave.c	/^__thread_local volatile unsigned long start, end;$/;"	v
+strBody	inc/photoNs.h	/^MPI_Datatype strBody;$/;"	v
+strMKey	inc/photoNs.h	/^MPI_Datatype strMKey;$/;"	v
+strReBody	inc/photoNs.h	/^MPI_Datatype strReBody;$/;"	v
+strReNode	inc/photoNs.h	/^MPI_Datatype strReNode;$/;"	v
+t_flat_lcdm_a	src/initial.c	/^double t_flat_lcdm_a(double a)$/;"	f
+taskM2Lexts	inc/photoNs.h	/^int *taskM2Lexts;$/;"	v
+taskM2Lextt	inc/photoNs.h	/^int *taskM2Lextt;$/;"	v
+taskM2Ls	inc/photoNs.h	/^int *taskM2Ls;$/;"	v
+taskM2Lt	inc/photoNs.h	/^int *taskM2Lt;$/;"	v
+taskP2Pexts	inc/photoNs.h	/^int *taskP2Pexts;$/;"	v
+taskP2Pextt	inc/photoNs.h	/^int *taskP2Pextt;$/;"	v
+taskP2Ps	inc/photoNs.h	/^int *taskP2Ps;$/;"	v
+taskP2Pt	inc/photoNs.h	/^int *taskP2Pt;$/;"	v
+task_param	src/fmm.c	/^double task_param[4];$/;"	v
+this_domain	inc/photoNs.h	/^int this_domain;$/;"	v
+time	src/snapshot.c	/^	double time;$/;"	m	struct:__anon18	file:
+time_left	inc/photoNs.h	/^	double time_left;$/;"	m	struct:__anon12
+time_node	inc/photoNs.h	/^	double time_node;$/;"	m	struct:__anon12
+time_right	inc/photoNs.h	/^	double time_right;$/;"	m	struct:__anon12
+tnp	src/task_slave.c	/^__thread_local int  tnp[NSEG];$/;"	v
+tnp_core	src/fmm.c	/^int    tnp_core[NCORE][NSEG];$/;"	v
+toptree	inc/photoNs.h	/^TopNode *toptree;$/;"	v
+total_mem_used	src/utility.c	/^size_t total_mem_used() {$/;"	f
+total_time	src/photoNs.c	/^double total_time;$/;"	v
+total_time_start	src/photoNs.c	/^double total_time_start; $/;"	v
+tpx	src/task_slave.c	/^__thread_local double   tpx[NSEG][NPACK];$/;"	v
+tpx_core	src/fmm.c	/^double tpx_core[NCORE][NSEG][NPACK];$/;"	v
+tpy	src/task_slave.c	/^__thread_local double   tpy[NSEG][NPACK];$/;"	v
+tpy_core	src/fmm.c	/^double tpy_core[NCORE][NSEG][NPACK];$/;"	v
+tpz	src/task_slave.c	/^__thread_local double   tpz[NSEG][NPACK];$/;"	v
+tpz_core	src/fmm.c	/^double tpz_core[NCORE][NSEG][NPACK];$/;"	v
+update_leaf	src/adaptive.c	/^int update_leaf(int active_level, int iPart, int npart) {$/;"	f
+update_p2p_local	src/adaptive.c	/^void update_p2p_local(int im, int jm, int adaptive_level)$/;"	f
+update_p2p_mirror	src/adaptive.c	/^void update_p2p_mirror(int im, int jm, int level)$/;"	f
+update_p2p_remote	src/adaptive.c	/^void update_p2p_remote(int im, int jm, int level)$/;"	f
+updated	inc/mytypes.h	/^	int  updated;$/;"	m	struct:__anon5
+updated	inc/mytypes.h	/^	int  updated;$/;"	m	struct:__anon6
+v	inc/photoNs.h	/^	double v;$/;"	m	struct:__anon8
+vel	inc/mytypes.h	/^	double vel[3];$/;"	m	struct:__anon7
+vproc	inc/photoNs.h	/^int vproc[2];$/;"	v
+walk_l2l	src/operator.c	/^void walk_l2l(int inode)$/;"	f
+walk_m2l	src/operator.c	/^void walk_m2l(int im, int jm)$/;"	f
+walk_m2l_count	inc/photoNs.h	/^INT64 walk_m2l_count;$/;"	v
+walk_m2l_remote_task	src/remotes.c	/^void walk_m2l_remote_task(int im, int jm)$/;"	f
+walk_m2l_task	src/operator.c	/^void walk_m2l_task(int im, int jm)$/;"	f
+walk_m2l_tasknum	src/operator.c	/^void walk_m2l_tasknum(int im, int jm)$/;"	f
+walk_m2m	src/operator.c	/^void walk_m2m(int iNode)$/;"	f
+walk_part	src/toptree.c	/^int walk_part(int D, int iNode, double x[3]) {$/;"	f
+walk_toptree_m2l	src/toptree.c	/^void walk_toptree_m2l(int iNode, double L[]) $/;"	f
+walk_toptree_m2m	src/toptree.c	/^void walk_toptree_m2m(int iNode) {$/;"	f
+width	inc/mytypes.h	/^	double width[3];$/;"	m	struct:__anon5
+width	inc/mytypes.h	/^	double width[3];$/;"	m	struct:__anon6
+width	inc/photoNs.h	/^	double width[3];$/;"	m	struct:__anon11
+width	inc/photoNs.h	/^	double width[3];$/;"	m	struct:__anon9
+width_this_domain	inc/photoNs.h	/^double width_this_domain;$/;"	v
+write_Particle_Gadget2	src/snapshot.c	/^void write_Particle_Gadget2(char filename[], int n_start, int n_count)$/;"	f
+write_Particle_text	src/snapshot.c	/^void write_Particle_text(char filename[], int n_start, int n_count)$/;"	f
+write_snapshot	src/snapshot.c	/^void write_snapshot(int type, int timestamp, int rank ) $/;"	f
+x	inc/photoNs.h	/^	int x, y, z;$/;"	m	struct:__anon8
+xmalloc	src/utility.c	/^void* xmalloc (size_t size) {$/;"	f
+y	inc/photoNs.h	/^	int x, y, z;$/;"	m	struct:__anon8
+z	inc/photoNs.h	/^	int x, y, z;$/;"	m	struct:__anon8

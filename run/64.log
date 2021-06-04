@@ -1,0 +1,88 @@
+ 
+
+
+
+
+                    / photoNs 2 /
+
+
+begin initialize_nbody!
+begin MPI_Type!
+begin readin
+end readin
+begin set para
+
+ ATTENTION !  cast NPART = 6000000, NPART_TOTAL = 384000000
+
+
+ ATTENTION !  cast Initial Time= 0.020000
+
+
+ ATTENTION !  cast OmegaM0     = 0.250000
+
+
+ ATTENTION !  cast OmegaX0     = 0.750000
+
+
+ ATTENTION !  cast Hubble0     = 0.700000
+
+
+ ATTENTION !  cast BOXSIZE     = 100000.000000
+
+ DERIVED    + splitRadius = 122.070312 
+            + SoftenScale = 4.127412 
+
+begin setup_domain_index
+begin ic_uniform
+begin decomp_2d_init
+begin MPI_Allgather
+end MPI_Allgather
+
+      #Proc = 64 ( 8 x 8 )
+
+      NSIDE = 1024 x 1024 x 1024
+
+      Theta = 0.400000
+
+
+      PROJECT    / demo /
+
+              initialize complete !
+
+end init!
+begin domain_initialize
+begin domain_decomposition
+begin realloc_body
+NPART_MEAN=6000000,new_npart=6000000
+end part_b
+ max memory 1.913145 GB
+begin fmm_construct
+begin fmm_prepare
+end fmm_prepare
+begin fmm_task
+end task_prepare_p2p
+idxP2P=69342429
+end task_compute_p2p
+end task_prepare_m2l
+idxM2L=0
+end task_compute_m2l
+ fmm time = 48.342607,task_m2l=21.590612 
+end fmm_task
+  
+ ***** Using the generic FFT engine *****
+  
+end partmesh
+begin fmm_ext
+
+ dtime_pm = 42.986742
+ dtime_m2l = 0.875397, dtime_p2p = 2.013620 [sec]
+ dtime_fmm/task = 17.729188, task = 48.342606 [sec]
+ dtime_prep = 15.770518, ext = 16.913733 [sec]
+
+
+LOOP         a=( 0.020000 to 0.020219 )            1
+
+begin realloc_body
+NPART_MEAN=6000000,new_npart=6000001
+end part_b
+ * DOM reconstruct     (dTime = 2.656536 sec)

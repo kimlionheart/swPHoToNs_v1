@@ -1,0 +1,229 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BoxSize	snapshot.c	/^	double BoxSize;$/;"	m	struct:__anon6	file:
+FAC	utility.c	294;"	d	file:
+FAC	utility.c	337;"	d	file:
+GadgetHeader	snapshot.c	/^} GadgetHeader;$/;"	t	typeref:struct:__anon6	file:
+HubbleParam	snapshot.c	/^	double HubbleParam;$/;"	m	struct:__anon6	file:
+HubbleParam	snapshot.c	/^static double HubbleParam;$/;"	v	file:
+LENDATA	task_slave.c	/^int LENDATA  = NSEG * NPACK * 8 ;$/;"	v
+LogMessage	utility.c	/^void LogMessage(int loop, double a, double time_short, double time_pm, double time_total, double imbalance) {$/;"	f
+Logfile_flush	utility.c	/^void Logfile_flush(){$/;"	f
+MBIG	utility.c	291;"	d	file:
+MBIG	utility.c	334;"	d	file:
+MSEED	utility.c	292;"	d	file:
+MSEED	utility.c	335;"	d	file:
+MZ	utility.c	293;"	d	file:
+MZ	utility.c	336;"	d	file:
+NPOW	partmesh.c	2174;"	d	file:
+NPOW	partmesh.c	2212;"	d	file:
+NTASKM2L	fmm.c	/^static INT64 NTASKM2L;$/;"	v	file:
+NTASKM2Lext	remotes.c	/^static INT64 NTASKM2Lext;$/;"	v	file:
+NTASKP2P	fmm.c	/^static INT64 NTASKP2P;$/;"	v	file:
+NTASKP2Pext	remotes.c	/^static INT64 NTASKP2Pext;$/;"	v	file:
+Omega0	snapshot.c	/^	double Omega0;$/;"	m	struct:__anon6	file:
+Omega0	snapshot.c	/^static double Omega0;$/;"	v	file:
+OmegaLambda	snapshot.c	/^	double OmegaLambda;$/;"	m	struct:__anon6	file:
+OmegaLambda	snapshot.c	/^static double OmegaLambda;$/;"	v	file:
+SoftenScale	slave_kernels.c	/^           double SoftenScale;	 $/;"	m	struct:__anon5	file:
+a_flat_lcdm_t	initial.c	/^double a_flat_lcdm_t(double time)$/;"	f
+acc	slave_kernels.c	/^	double acc[3];$/;"	m	struct:__anon1	file:
+acceptance	fmm.c	/^inline int acceptance(double wi[3], double wj[3], double dist[3]) $/;"	f
+accx	task_slave.c	/^__thread_local double   accx[NPACK];$/;"	v
+accy	task_slave.c	/^__thread_local double   accy[NPACK];$/;"	v
+accz	task_slave.c	/^__thread_local double   accz[NPACK];$/;"	v
+active_particle	adaptive.c	/^void active_particle (double ai, double af)$/;"	f
+alone_i_task	slave_kernels.c	/^	 p2p_package alone_i_task[slave_task_alone];    $/;"	m	struct:__anon3	file:
+alone_j_task	slave_kernels.c	/^         p2p_package alone_j_task[slave_task_alone];	  $/;"	m	struct:__anon3	file:
+bksort_body_inplace	domains.c	/^void bksort_body_inplace(int D, Body *p, int length, int npart[2], double split)$/;"	f
+bksort_inplace	fmm.c	/^void bksort_inplace(int D, Body *p, int length, int npart[2], double *split)$/;"	f
+build_kdtree	fmm.c	/^void build_kdtree(int direct, int iPart, int length, int iNode)$/;"	f
+build_localtree	fmm.c	/^void build_localtree() {$/;"	f
+center_kdtree	fmm.c	/^void center_kdtree(int direct, int iNode, double left[3], double right[3])$/;"	f
+center_toptree	toptree.c	/^void center_toptree(int direct, int iNode, double left[3], double right[3])$/;"	f
+check	toptree.c	/^void check(int npart) {$/;"	f
+clean_toptree	toptree.c	/^void clean_toptree()  {$/;"	f
+coeff	slave_kernels.c	/^	   double coeff;$/;"	m	struct:__anon5	file:
+coeff	task_slave.c	/^__thread_local double   dx, dy, dz, dr, ir3, gf, coeff, mg, irs, r, soft;$/;"	v
+connect_local_toptree	toptree.c	/^void connect_local_toptree()$/;"	f
+construct_toptree	toptree.c	/^void construct_toptree()$/;"	f
+conv_pmonly	conv.f90	/^subroutine conv_pmonly(/;"	s
+convolution	conv.f90	/^subroutine convolution(/;"	s
+cosmos_ic	initial.c	/^void cosmos_ic(double box, int npart) {$/;"	f
+dTlocal	fmm.c	/^static double dTlocal, dTremote, dTmirror;$/;"	v	file:
+dTmirror	fmm.c	/^static double dTlocal, dTremote, dTmirror;$/;"	v	file:
+dTremote	fmm.c	/^static double dTlocal, dTremote, dTmirror;$/;"	v	file:
+decomp_2d_init	initial.c	302;"	d	file:
+deconstruct_toptree	toptree.c	/^void deconstruct_toptree() {$/;"	f
+densitykspace	conv.f90	/^subroutine densitykspace(/;"	s
+determine_split_domtree	domains.c	/^void determine_split_domtree(int size, int npart, DomainNode *tree)$/;"	f
+determine_split_node	domains.c	/^void determine_split_node(int D, int nproc, int iNode, DomainNode *tree, double bl[], double br[])$/;"	f
+domain_decomposition	domains.c	/^void domain_decomposition() $/;"	f
+domain_finalize	domains.c	/^void domain_finalize() {$/;"	f
+domain_initialize	domains.c	/^void domain_initialize() {$/;"	f
+domain_volume_part	domains.c	/^void domain_volume_part(int iNode, double boxl[], double boxr[], int dim) {$/;"	f
+dr	task_slave.c	/^__thread_local double   dx, dy, dz, dr, ir3, gf, coeff, mg, irs, r, soft;$/;"	v
+drift_loga	initial.c	/^double drift_loga(double loga_i, double loga_f)$/;"	f
+driver	photoNs.c	/^void driver(double ai, double af, int snap_idx, int nstep_fix) {$/;"	f
+dtime	utility.c	/^double dtime() \/\/ Return double style timestamp using gettimeofday().$/;"	f
+dx	task_slave.c	/^__thread_local double   dx, dy, dz, dr, ir3, gf, coeff, mg, irs, r, soft;$/;"	v
+dy	task_slave.c	/^__thread_local double   dx, dy, dz, dr, ir3, gf, coeff, mg, irs, r, soft;$/;"	v
+dz	task_slave.c	/^__thread_local double   dx, dy, dz, dr, ir3, gf, coeff, mg, irs, r, soft;$/;"	v
+end	task_slave.c	/^__thread_local volatile unsigned long start, end;$/;"	v
+fill	snapshot.c	/^	char fill[256-6*4-6*8-2*8-2*4-6*4-2*4-4*8];	$/;"	m	struct:__anon6	file:
+fill_time_domtree	domains.c	/^double fill_time_domtree(int iNode)$/;"	f
+finalizeLogfile	utility.c	/^void finalizeLogfile() {$/;"	f
+finalize_nbody	initial.c	/^void finalize_nbody()$/;"	f
+flag_cooling	snapshot.c	/^	int flag_cooling;$/;"	m	struct:__anon6	file:
+flag_feedback	snapshot.c	/^	int flag_feedback;$/;"	m	struct:__anon6	file:
+flag_sfr	snapshot.c	/^	int flag_sfr;$/;"	m	struct:__anon6	file:
+flog	utility.c	/^static FILE *flog;$/;"	v	file:
+fmm_adaptive_solver	adaptive.c	/^void fmm_adaptive_solver( int adaptive_level ){$/;"	f
+fmm_construct	fmm.c	/^void fmm_construct( ) {$/;"	f
+fmm_deconstruct	fmm.c	/^void fmm_deconstruct() $/;"	f
+fmm_ext	fmm.c	/^void fmm_ext(){$/;"	f
+fmm_prepare	fmm.c	/^void fmm_prepare() $/;"	f
+fmm_remote	remotes.c	/^void fmm_remote(int idx, double displace[3])$/;"	f
+fmm_remote_task	remotes.c	/^void fmm_remote_task (int numrecv)$/;"	f
+fmm_solver_total	fmm.c	/^void fmm_solver_total()$/;"	f
+fmm_task	fmm.c	/^void fmm_task() {$/;"	f
+fmm_task_athread_test	fmm.c	/^void fmm_task_athread_test() {$/;"	f
+fmm_task_openmp	fmm.c	/^void fmm_task_openmp() {$/;"	f
+fmm_task_parallel	task.c	/^void fmm_task_parallel(int NumThread) $/;"	f
+fmm_task_parallel_kernel	task.c	/^void fmm_task_parallel_kernel(int  gang) {$/;"	f
+fmm_task_parallel_kernel_athread	task_slave.c	/^void fmm_task_parallel_kernel_athread() {$/;"	f
+fraction	domains.c	/^double fraction(int size, int *l, int *r) {$/;"	f
+get_local_size	conv.f90	/^subroutine get_local_size(/;"	s
+get_reply	task_slave.c	/^__thread_local volatile unsigned long get_reply, put_reply;$/;"	v
+gf	task_slave.c	/^__thread_local double   dx, dy, dz, dr, ir3, gf, coeff, mg, irs, r, soft;$/;"	v
+ic_pmfmm	utility.c	/^void ic_pmfmm(){$/;"	f
+ic_uniform	initial.c	/^void ic_uniform(double box, int npart) {$/;"	f
+idxp2p	slave_kernels.c	/^	   int idxp2p;  $/;"	m	struct:__anon5	file:
+initializeLogfile	utility.c	/^void initializeLogfile() {$/;"	f
+initialize_nbody	initial.c	/^void initialize_nbody(char parameterfile[])$/;"	f
+intergra	fmm.c	/^void intergra(){$/;"	f
+ir3	task_slave.c	/^__thread_local double   dx, dy, dz, dr, ir3, gf, coeff, mg, irs, r, soft;$/;"	v
+irs	task_slave.c	/^__thread_local double   dx, dy, dz, dr, ir3, gf, coeff, mg, irs, r, soft;$/;"	v
+kdk2_level	adaptive.c	/^void kdk2_level (double dkh, double dd, int level)$/;"	f
+kdk_level	adaptive.c	/^void kdk_level (double dkh, double dd, int level)$/;"	f
+kick_loga	initial.c	/^double kick_loga(double loga_i, double loga_f) {$/;"	f
+l2l	operator.c	/^void l2l(double dx, double dy, double dz, double L[], double toL[]) $/;"	f
+l2p	operator.c	/^void l2p( int ileaf )$/;"	f
+leaf_updated	adaptive.c	/^int leaf_updated(int active_level, int iPart, int npart) $/;"	f
+m2l	operator.c	/^void m2l(double dx, double dy, double dz, double M[], double toL[]) $/;"	f
+m2m	operator.c	/^void m2m(double dx, double dy, double dz, double M[], double tM[]) $/;"	f
+main	photoNs.c	/^int main(int argc, char* argv[]) $/;"	f
+make_appendix	photoNs.c	/^void make_appendix(double total_time) {$/;"	f
+make_title	photoNs.c	/^void make_title(){$/;"	f
+mass	slave_kernels.c	/^	double mass;$/;"	m	struct:__anon1	file:
+mass	snapshot.c	/^	double mass[6];$/;"	m	struct:__anon6	file:
+measure_domain_runtime	domains.c	/^void measure_domain_runtime(double dTimeFrac) {$/;"	f
+mem_shift	utility.c	/^void mem_shift(int source, int target){$/;"	f
+mg	task_slave.c	/^__thread_local double   dx, dy, dz, dr, ir3, gf, coeff, mg, irs, r, soft;$/;"	v
+my_id	task_slave.c	/^__thread_local int  my_id;$/;"	v
+npart	slave_kernels.c	/^	int npart;$/;"	m	struct:__anon2	file:
+npart	snapshot.c	/^	int npart[6];$/;"	m	struct:__anon6	file:
+npartTotal	snapshot.c	/^	int npartTotal[6];$/;"	m	struct:__anon6	file:
+npart_infile	snapshot.c	/^void npart_infile(const char filename[], int ith, int np[])$/;"	f
+num_files	snapshot.c	/^	int num_files;$/;"	m	struct:__anon6	file:
+numbody	remotes.c	/^static int numbody;$/;"	v	file:
+numnode	remotes.c	/^static int numnode;$/;"	v	file:
+p	slave_kernels.c	/^	   p2p_rota_task *p;$/;"	m	struct:__anon5	file:
+p2m	operator.c	/^void p2m(int iPart, int npart, double center[3], double M[]) $/;"	f
+p2p_alone_task	slave_kernels.c	/^}p2p_alone_task;$/;"	t	typeref:struct:__anon3	file:
+p2p_kernel	kernels.c	/^void p2p_kernel(int inode, int jnode) {$/;"	f
+p2p_kernel_ex	remotes.c	/^void p2p_kernel_ex(int inode, int jnode)$/;"	f
+p2p_kernel_mirror_adaptive	adaptive.c	/^void p2p_kernel_mirror_adaptive(int inode, int jnode, int level)$/;"	f
+p2p_kernel_remote_adaptive	adaptive.c	/^void p2p_kernel_remote_adaptive(int inode, int jnode, int level)$/;"	f
+p2p_kernel_slave	slave_kernels.c	/^void p2p_kernel_slave(slave_data *slave_all){$/;"	f
+p2p_node	slave_kernels.c	/^} p2p_node;$/;"	t	typeref:struct:__anon1	file:
+p2p_package	slave_kernels.c	/^} p2p_package;$/;"	t	typeref:struct:__anon2	file:
+p2p_rpta_task	slave_kernels.c	/^}p2p_rpta_task;$/;"	t	typeref:struct:__anon4	file:
+p2p_task	slave_kernels.c	/^        p2p_alone_task p2p_task[64];  	  $/;"	m	struct:__anon4	file:
+package	slave_kernels.c	/^	p2p_node package[MAX_PACKAGE]; $/;"	m	struct:__anon2	file:
+par	task_slave.c	/^__thread_local double   par[4];$/;"	v
+partmass	snapshot.c	/^static double partmass[6];$/;"	v	file:
+partmesh	partmesh.c	/^void partmesh()$/;"	f
+partmesh_thread	partmesh.c	/^void partmesh_thread()$/;"	f
+pfree	utility.c	/^void pfree(void* ptr, int idx) {$/;"	f
+pm_thread	partmesh.c	/^void* pm_thread(void *arg) {$/;"	f
+pmalloc	utility.c	/^void* pmalloc (size_t size, int idx) {$/;"	f
+pos	slave_kernels.c	/^	double pos[3];$/;"	m	struct:__anon1	file:
+powerspectrum	partmesh.c	/^void powerspectrum(char powname[]) $/;"	f
+prepare_body_inOrderOf_domain	domains.c	/^void prepare_body_inOrderOf_domain(int D,  Body *p, int length, int iNode, int send[]) $/;"	f
+prepare_deliver_realloc_body	domains.c	/^void prepare_deliver_realloc_body(int *npart)$/;"	f
+prepare_sendtree2	remotes.c	/^void prepare_sendtree2(int isend, int ilocal, int tNode, int D, double displace[3])$/;"	f
+print_usage	initial.c	/^static void print_usage (int bad) $/;"	f	file:
+prmBOXSIZE	initial.c	/^static double prmBOXSIZE = -1.0;$/;"	v	file:
+prmHUBBLE	initial.c	/^static double prmHUBBLE = -1.0;$/;"	v	file:
+prmINITIALTIME	initial.c	/^static double prmINITIALTIME  = -1.0;$/;"	v	file:
+prmNUMPART	initial.c	/^static unsigned int prmNUMPART  = 0;$/;"	v	file:
+prmOMEGAM	initial.c	/^static double prmOMEGAM = -1.0;$/;"	v	file:
+prmOMEGAX	initial.c	/^static double prmOMEGAX = -1.0;$/;"	v	file:
+prmSOFTENSCALE	initial.c	/^static double prmSOFTENSCALE  = -1.0;$/;"	v	file:
+prmSPLITSCALE	initial.c	/^static double prmSPLITSCALE  = -1.0;$/;"	v	file:
+put_reply	task_slave.c	/^__thread_local volatile unsigned long get_reply, put_reply;$/;"	v
+r	task_slave.c	/^__thread_local double   dx, dy, dz, dr, ir3, gf, coeff, mg, irs, r, soft;$/;"	v
+ran3	utility.c	/^float ran3(long *idum)$/;"	f
+read_GadgetHeader	snapshot.c	/^void read_GadgetHeader(const char filename[])$/;"	f
+read_Particle	snapshot.c	/^void read_Particle(char filename[], int n_start, int n_count)$/;"	f
+read_Particle_Gadget2	snapshot.c	/^void read_Particle_Gadget2(char filename[], int n_start, int n_count)$/;"	f
+read_Particle_Gadget2_mfile	snapshot.c	/^void read_Particle_Gadget2_mfile(char filename[], int n_start, int n_end, int ip)$/;"	f
+read_Particle_text	snapshot.c	/^void read_Particle_text(char filename[], int n_start, int n_count) $/;"	f
+readin_parameter_file	initial.c	/^void readin_parameter_file(char parameterfile[])$/;"	f
+redshift	snapshot.c	/^	double redshift;$/;"	m	struct:__anon6	file:
+reset_mem	utility.c	/^void reset_mem() {$/;"	f
+rs	slave_kernels.c	/^	   double rs;$/;"	m	struct:__anon5	file:
+setup	utility.c	/^void setup(int NPART, double BOXSIZE) {$/;"	f
+setup_domain_index	initial.c	/^void setup_domain_index() {$/;"	f
+setup_parallel	utility.c	/^void setup_parallel(int NPART, double BOXSIZE) {$/;"	f
+setup_parallel_sphere	utility.c	/^void setup_parallel_sphere(int NPART, double RADIUS) {$/;"	f
+setup_parallel_zoomin	utility.c	/^void setup_parallel_zoomin(int NPART, double minBox, double BOXSIZE) {$/;"	f
+showtree	operator.c	/^void showtree() {$/;"	f
+simple_snapshot	initial.c	/^void simple_snapshot(char fbase[]) {$/;"	f
+slave_data	slave_kernels.c	/^}slave_data;$/;"	t	typeref:struct:__anon5	file:
+snp	task_slave.c	/^__thread_local int  snp[NSEG];$/;"	v
+snp_core	fmm.c	/^int    snp_core[NCORE][NSEG];$/;"	v
+soft	task_slave.c	/^__thread_local double   dx, dy, dz, dr, ir3, gf, coeff, mg, irs, r, soft;$/;"	v
+spx	task_slave.c	/^__thread_local double   spx[NSEG][NPACK];$/;"	v
+spx_core	fmm.c	/^double spx_core[NCORE][NSEG][NPACK];$/;"	v
+spy	task_slave.c	/^__thread_local double   spy[NSEG][NPACK];$/;"	v
+spy_core	fmm.c	/^double spy_core[NCORE][NSEG][NPACK];$/;"	v
+spz	task_slave.c	/^__thread_local double   spz[NSEG][NPACK];$/;"	v
+spz_core	fmm.c	/^double spz_core[NCORE][NSEG][NPACK];$/;"	v
+start	task_slave.c	/^__thread_local volatile unsigned long start, end;$/;"	v
+t_flat_lcdm_a	initial.c	/^double t_flat_lcdm_a(double a)$/;"	f
+task_param	fmm.c	/^double task_param[4];$/;"	v
+time	snapshot.c	/^	double time;$/;"	m	struct:__anon6	file:
+tnp	task_slave.c	/^__thread_local int  tnp[NSEG];$/;"	v
+tnp_core	fmm.c	/^int    tnp_core[NCORE][NSEG];$/;"	v
+total_mem_used	utility.c	/^size_t total_mem_used() {$/;"	f
+total_time	photoNs.c	/^double total_time;$/;"	v
+total_time_start	photoNs.c	/^double total_time_start; $/;"	v
+tpx	task_slave.c	/^__thread_local double   tpx[NSEG][NPACK];$/;"	v
+tpx_core	fmm.c	/^double tpx_core[NCORE][NSEG][NPACK];$/;"	v
+tpy	task_slave.c	/^__thread_local double   tpy[NSEG][NPACK];$/;"	v
+tpy_core	fmm.c	/^double tpy_core[NCORE][NSEG][NPACK];$/;"	v
+tpz	task_slave.c	/^__thread_local double   tpz[NSEG][NPACK];$/;"	v
+tpz_core	fmm.c	/^double tpz_core[NCORE][NSEG][NPACK];$/;"	v
+update_leaf	adaptive.c	/^int update_leaf(int active_level, int iPart, int npart) {$/;"	f
+update_p2p_local	adaptive.c	/^void update_p2p_local(int im, int jm, int adaptive_level)$/;"	f
+update_p2p_mirror	adaptive.c	/^void update_p2p_mirror(int im, int jm, int level)$/;"	f
+update_p2p_remote	adaptive.c	/^void update_p2p_remote(int im, int jm, int level)$/;"	f
+walk_l2l	operator.c	/^void walk_l2l(int inode)$/;"	f
+walk_m2l	operator.c	/^void walk_m2l(int im, int jm)$/;"	f
+walk_m2l_remote_task	remotes.c	/^void walk_m2l_remote_task(int im, int jm)$/;"	f
+walk_m2l_task	operator.c	/^void walk_m2l_task(int im, int jm)$/;"	f
+walk_m2l_tasknum	operator.c	/^void walk_m2l_tasknum(int im, int jm)$/;"	f
+walk_m2m	operator.c	/^void walk_m2m(int iNode)$/;"	f
+walk_part	toptree.c	/^int walk_part(int D, int iNode, double x[3]) {$/;"	f
+walk_toptree_m2l	toptree.c	/^void walk_toptree_m2l(int iNode, double L[]) $/;"	f
+walk_toptree_m2m	toptree.c	/^void walk_toptree_m2m(int iNode) {$/;"	f
+write_Particle_Gadget2	snapshot.c	/^void write_Particle_Gadget2(char filename[], int n_start, int n_count)$/;"	f
+write_Particle_text	snapshot.c	/^void write_Particle_text(char filename[], int n_start, int n_count)$/;"	f
+write_snapshot	snapshot.c	/^void write_snapshot(int type, int timestamp, int rank ) $/;"	f
+xmalloc	utility.c	/^void* xmalloc (size_t size) {$/;"	f
