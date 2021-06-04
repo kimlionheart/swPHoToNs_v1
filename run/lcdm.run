@@ -1,0 +1,47 @@
+# control parameters and cosmological/physical parameters of photoNs-2
+
+CodeProj         demo
+
+
+InputPath        ../demo/ic_lcdm.gdt2
+SnapNumber       1   # File number of single snapshot
+
+SnapFormat       -2   # 0=plain,X Y Z Vx Vy Vz Mass;1=photoNs;2=Gadget-2;-1=demo
+
+OMEGAM           0.25   #cosmology densidy
+OMEGAX           0.75
+HUBBLE           0.7
+BOXSIZE          100000.0  # hkpc
+NUMPART	  	 6000000
+INITIALTIME      0.02
+
+SnapTime    	 0.25
+SnapTime    	 0.333333333333
+SnapTime      	 0.5
+##SnapTime         0.769230769
+SnapTime         1.0
+
+OutputPath       ./ # same format with Input
+OutputName       snap
+
+
+##SAMPLINGRATE     0.3
+
+OPENANGLE        0.4 #0.3
+
+MaxPackage          16
+NumMeshSide	  1024
+NumThread	    1
+
+NprocVertical	 8
+NprocHorizon	 8
+
+##SPLITSCALE       2000.0
+##SOFTENING        100.0  # hkpc
+
+GravConstant     43007.105732 # be covered unless SnapFormat < 1
+VALIDATION       2018Jul07
+
+
+
+
